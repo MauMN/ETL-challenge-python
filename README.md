@@ -1,5 +1,5 @@
 <h1><b>Alkemy challenge python</b></h1>
-<h2><i>Repositorio con resolución del Challenge de ingreso Alkemy Data Analytics + Python</i></h2>
+<h3><i>Repositorio con resolución del Challenge de ingreso Alkemy Data Analytics + Python</i></h3>
 
 Para el correcto deploy se deben seguir los siguientes pasos, ejecutando los comandos desde el command prompt:
 
