@@ -3,13 +3,15 @@ Repositorio con resolución del challenge de ingreso alkemy data analytics + pyt
 
 Para el correcto deploy se deben seguir los siguientes pasos, ejecutando los comandos desde el command prompt:
 
-Instalamos la libreria de entornos virtuales, venv:
+Instalamos la libreria de entornos virtuales, virtualenv:
 
 pip install virtualenv
 
 Posicionamos el current directory en la dirección donde queremos instalar el entorno virtual (puede ser el home del SO pero no necesariamente), y lo creamos con el comando:
 
-python -m venv nombre_del_entorno
+virtualenv nombre_del_entorno<br/>
+o<br/>
+python -m venv nombre_del_entorno (para utilizar el paquete venv soportado por python3, pero no por versiones más antiguas)
 
 Lo activamos:
 
@@ -26,7 +28,7 @@ pip install logging<br/>
 pip install pathlib<br/>
 pip install python-decouple<br/>
 
-Para conectar a base de datos, adecuamos el archivo .env con la configuración de los datos de conexión que constituuyen la database_url (user, pass, admin, host_name,
+Para conectar a base de datos, adecuamos el archivo .env con la configuración de los datos de conexión que constituyen la database_url (user, pass, admin, host_name,
 port, database_name) del administrador local de PostgreSQL.
 
 Finalmente ejecutamos los scripts .py en orden para la extracción, procesamiento y carga a base de datos:
