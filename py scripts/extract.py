@@ -11,7 +11,7 @@ mes = datetime.datetime.now().strftime("%B")
 mes1 = datetime.datetime.now().strftime("%m")
 dia = datetime.datetime.now().strftime("%d")
 
-home = Path(home)  # cambiar la variable "home" de ser necesario
+home = Path.home()  # cambiar la variable "home" de ser necesario
 directory_m = 'museos/{}-{}'.format(año, mes)
 museos_path = os.path.join(home, directory_m)
 directory_s = 'salas/{}-{}'.format(año, mes)
